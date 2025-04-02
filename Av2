@@ -1,24 +1,49 @@
 //Luiza e José
 let aluno=("Miguel");
 
-var nota1, nota2, nota3, media;
+var Mnota1, Mnota2, Mnota3, Mmedia, Lnota1, Lnota2, Lnota3, Lmedia, Jnota1, Jnota2, Jnota3, Jmedia;
 
-nota1 = Number(prompt("Digite a primeira nota"));
-console.log ("Nota 1: "+(nota1))
-nota2 = Number(prompt("Digite a segunda nota"));
-console.log ("Nota 2: "+(nota2))
-nota3 = Number(prompt("Digite a terceira nota"));
-console.log ("Nota 3: "+(nota3))
+Mnota1 = Number(prompt("Digite a primeira nota de Miguel"));
+Mnota2 = Number(prompt("Digite a segunda nota de Miguel"));
+Mnota3 = Number(prompt("Digite a terceira nota de Miguel"));
 
-console.log ("soma das notas "+(nota1+nota2+nota3));
+Mmedia = (Mnota1+Mnota2+Mnota3)/3;
 
-media = (nota1+nota2+nota3)/3;
+console.log("a media das notas de Miguel é: "+(Mmedia))
 
-console.log("a media é: "+(media))
-
-if ( media >= 6 ) {
+if ( Mmedia >= 6 ) {
    console.log("Aluno aprovado");
      } else {
-     if ( media <= 5) {
+     if ( Mmedia <= 5) {
+       console.log("Aluno reprovado")
+     }}
+
+Lnota1 = Number(prompt("Digite a primeira nota de Luiza"));
+Lnota2 = Number(prompt("Digite a segunda nota de Luiza"));
+Lnota3 = Number(prompt("Digite a terceira nota de Luiza"));
+
+Lmedia = (Lnota1+Lnota2+Lnota3)/3;
+
+console.log("a media das notas de Luiza é: "+(Lmedia))
+
+if ( Lmedia >= 6 ) {
+   console.log("Aluno aprovado");
+     } else {
+     if ( Lmedia <= 5) {
+       console.log("Aluno reprovado")
+     }} 
+
+Jnota1 = Number(prompt("Digite a primeira nota de José"));
+Jnota2 = Number(prompt("Digite a segunda nota de José"));
+Jnota3 = Number(prompt("Digite a terceira nota de José"));
+
+Jmedia = (Jnota1+Jnota2+Jnota3)/3;  
+
+console.log("a media das notas de José é: "+(Jmedia))
+
+if ( Jmedia >= 6 ) {
+   console.log("Aluno aprovado");
+     } else {
+     if ( Jmedia <= 5) {
        console.log("Aluno reprovado")
      }}
