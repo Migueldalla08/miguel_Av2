@@ -6,6 +6,52 @@ var Mnota1, Mnota2, Mnota3, Mmedia, Mfrequencia, Lnota1, Lnota2, Lnota3, Lmedia,
 Mnota1 = Number(prompt("Digite a primeira nota de Miguel"));
 Mnota2 = Number(prompt("Digite a segunda nota de Miguel"));
 Mnota3 = Number(prompt("Digite a terceira nota de Miguel"));
+Mfrequencia = Number(prompt("Digite a frequencia de Miguel de 0 a 100"));
+
+if (Mfrequencia >= 85) {
+  console.log("Frequencia boa");
+} else {
+  if (Mfrequencia <= 84)
+  console.log("Reprovado por frequencia");
+}
+
+Mmedia = (Mnota1+Mnota2+Mnota3)/3;
+
+console.log("a media das notas de Miguel é: "+(Mmedia));
+
+if ( Mmedia >= 6 ) {
+   console.log("Aluno aprovado");
+     } else {
+     if ( Mmedia <= 5) {
+       console.log("Aluno reprovado");
+     }}
+
+Lnota1 = Number(prompt("Digite a primeira nota de Luiza"));if (Lfrequencia >= 85) {
+  console.log("Frequencia boa");
+} else {
+  if (Lfrequencia <= 84)
+  console.log("Reprovado por frequenia");
+}
+
+Lnota2 = Number(prompt("Digite a segunda nota de Luiza"));
+Lnota3 = Number(prompt("Digite a terceira nota de Luiza"));
+Lfrequencia = Number(prompt("Digite a frequencia de Luiza de 0 a 100"));
+
+if (Lfrequencia >= 85) {
+  console.log("Frequencia boa");
+} else {
+  if (Lfrequencia <= 84)
+  console.log("Reprovado por frequencia");
+}
+
+
+Lmedia = (Lnota1+Lnota2+Lnota3)/3;
+
+console.log("a medvar Mnota1, Mnota2, Mnota3, Mmedia, Mfrequencia, Lnota1, Lnota2, Lnota3, Lmedia, Lfrequencia, Jnota1, Jnota2, Jnota3, Jmedia, Lfrequencia;
+
+Mnota1 = Number(prompt("Digite a primeira nota de Miguel"));
+Mnota2 = Number(prompt("Digite a segunda nota de Miguel"));
+Mnota3 = Number(prompt("Digite a terceira nota de Miguel"));
 Mfrequencia = Number(prompt("Digite a frequencia de Miguel de 0 a 100"))
 
 if (Mfrequencia >= 85) {
@@ -74,7 +120,61 @@ if (Jfrequencia >= 85) {
   console.log("Reprovado por frequencia")
 }
 
+//Luiza e José
+let aluno=("Miguel");
 
+var Mnota1, Mnota2, Mnota3, Mmedia, Mfrequencia, Lnota1, Lnota2, Lnota3, Lmedia, Lfrequencia, Jnota1, Jnota2, Jnota3, Jmedia, Lfrequencia;
+
+Mnota1 = Number(prompt("Digite a primeira nota de Miguel"));
+Mnota2 = Number(prompt("Digite a segunda nota de Miguel"));
+Mnota3 = Number(prompt("Digite a terceira nota de Miguel"));
+Mfrequencia = Number(prompt("Digite a frequencia de Miguel de 0 a 100"))
+
+if (Mfrequencia >= 85) {
+  console.log("Frequencia boa")
+} else {
+  if (Mfrequencia <= 84)
+  console.log("Reprovado por frequencia")
+}
+
+Mmedia = (Mnota1+Mnota2+Mnota3)/3;
+
+console.log("a media das notas de Miguel é: "+(Mmedia))
+
+if ( Mmedia >= 6 ) {
+   console.log("Aluno aprovado");
+     } else {
+     if ( Mmedia <= 5) {
+       console.log("Aluno reprovado")
+     }}
+
+Lnota1 = Number(prompt("Digite a primeira nota de Luiza"));if (Lfrequencia >= 85) {
+  console.log("Frequencia boa")
+} else {
+  if (Lfrequencia <= 84)
+  console.log("Reprovado por frequenia")
+}
+
+Lnota2 = Number(prompt("Digite a segunda nota de Luiza"));
+Lnota3 = Number(prompt("Digite a terceira nota de Luiza"));
+Lfrequencia = Number(prompt("Digite a frequencia de Luiza de 0 a 100"))
+
+if (Lfrequencia >= 85) {
+  console.log("Frequencia boa")
+} else {
+  if (Lfrequencia <= 84)
+  console.log("Reprovado por frequencia")
+}
+
+
+Lmedia = (Lnota1+Lnota2+Lnota3)/3;
+
+console.log("a media das notas de Luiza é: "+(Lmedia))
+
+if ( Lmedia >= 6 ) {
+   console.log("Aluno aprovado");
+     } else {
+     if ( Lmedia <= 5) {
 Jmedia = (Jnota1+Jnota2+Jnota3)/3;  
 
 console.log("a media das notas de José é: "+(Jmedia))
@@ -90,9 +190,41 @@ Jmedia = (Jnota1+Jnota2+Jnota3)/3;
 
 console.log("a media das notas de José é: "+(Jmedia))
 
+if ( Jmedia >= 6 ) {ia das notas de Luiza é: "+(Lmedia));
+
+if ( Lmedia >= 6 ) {
+   console.log("Aluno aprovado");
+     } else {
+     if ( Lmedia <= 5) {
+       console.log("Aluno reprovado");
+     }} 
+
+Jnota1 = Number(prompt("Digite a primeira nota de José"));
+Jnota2 = Number(prompt("Digite a segunda nota de José"));
+Jnota3 = Number(prompt("Digite a terceira nota de José"));
+Jfrequencia = Number(prompt("Digite a frequencia de José de 0 a 100"));
+if (Lfrequencia >= 85) {
+  console.log("Frequencia boa");
+} else {
+  if (Lfrequencia <= 84)
+  console.log("Reprovado por frequenia");
+}
+
+if (Jfrequencia >= 85) {
+  console.log("Frequencia boa");
+} else {
+  if (Jfrequencia <= 84)
+  console.log("Reprovado por frequencia");
+}
+
+
+Jmedia = (Jnota1+Jnota2+Jnota3)/3;  
+
+console.log("a media das notas de José é: "+(Jmedia));
+
 if ( Jmedia >= 6 ) {
    console.log("Aluno aprovado");
      } else {
      if ( Jmedia <= 5) {
-       console.log("Aluno reprovado")
+       console.log("Aluno reprovado");
      }}
